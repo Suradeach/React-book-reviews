@@ -16,6 +16,7 @@ import Layout from "layouts/Layout";
 import Footer from "./components/Footers/FooterSmall";
 // import Login from "Pages/AuthPage/Login";
 import Auth from "./Pages/AuthPage/Auth";
+import Addbooks from "layouts/Addbook";
 // import Page6 from "components/Page6/page6";
 
 ReactDOM.render(
@@ -24,6 +25,7 @@ ReactDOM.render(
       <Switch>
         <Route path="/auth" component={Auth} />
         <Route path="/" exact component={Landing} />
+        <Route path="/Addbook" component={Addbooks}/>
 
         <Route path="/profile/:username" component={Profile} />
 
